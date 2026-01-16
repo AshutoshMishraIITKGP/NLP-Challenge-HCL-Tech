@@ -1,0 +1,8 @@
+{
+  "action": "schedule_hr_meeting",
+  "meeting_type": "general",
+  "date": "16 jan 2026",
+  "time": "18 jann 2026",
+  "participants": "me, myself and I",
+  "description": "\"The user is requesting assistance in scheduling a meeting with HR. Please coordinate the meeting request and provide confirmation details to the user.\""
+}

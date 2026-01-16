@@ -1,0 +1,19 @@
+2026-01-16 19:57:43,528 | INFO | USER_QUERY | Intent: None | Query: hi
+2026-01-16 19:57:44,659 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: hi
+2026-01-16 19:57:45,625 | INFO | ACTION | Type: create_it_ticket | Status: PENDING
+2026-01-16 19:57:50,478 | INFO | USER_QUERY | Intent: None | Query: no
+2026-01-16 19:57:51,041 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: no
+2026-01-16 19:57:51,691 | INFO | ACTION | Type: unknown | Status: PENDING
+2026-01-16 19:58:37,511 | INFO | USER_QUERY | Intent: None | Query: hi
+2026-01-16 19:58:38,244 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: hi
+2026-01-16 19:58:39,162 | INFO | ACTION | Type: create_it_ticket | Status: PENDING
+2026-01-16 20:00:14,861 | INFO | USER_QUERY | Intent: None | Query: tell me about hcl tech policies
+2026-01-16 20:00:15,506 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: tell me about hcl tech policies
+2026-01-16 20:00:18,189 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech has several key policies in place, including:
+1. **Global Privacy Policy**: Governs personal data processing activities, ensuring compliance with privacy principles like purpose limita
+2026-01-16 20:00:40,658 | INFO | USER_QUERY | Intent: None | Query: I want to write a letter
+2026-01-16 20:00:52,887 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: I want to write a letter
+2026-01-16 20:00:53,266 | ERROR | ERROR | API error occurred: Status 503 Content-Type "text/plain; charset=UTF-8". Body: upstream connect error or disconnect/reset before headers. reset reason: overflow
+2026-01-16 20:01:19,363 | INFO | USER_QUERY | Intent: None | Query: he;lllo?
+2026-01-16 20:01:43,746 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: he;lllo?

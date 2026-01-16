@@ -1,0 +1,10 @@
+2026-01-16 17:54:41,646 | INFO | USER_QUERY | Intent: None | Query: ssup
+2026-01-16 17:54:42,324 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: ssup
+2026-01-16 17:54:43,266 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+The requested information is not available in the provided document.
+
+Citations:
+N/A
+2026-01-16 17:54:53,188 | INFO | USER_QUERY | Intent: None | Query: i have issue with vpn
+2026-01-16 17:54:53,766 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: i have issue with vpn
+2026-01-16 17:54:54,568 | INFO | ACTION | Type: create_it_ticket | Status: PENDING

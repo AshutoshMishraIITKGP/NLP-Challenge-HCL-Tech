@@ -1,0 +1,8 @@
+{
+  "action": "request_leave",
+  "leave_type": "",
+  "start_date": "17 jan 2026",
+  "end_date": "19 jan 2026",
+  "reason": "",
+  "description": "The user requires assistance in drafting a formal leave letter. Please provide guidance on structuring and composing a professional leave request document."
+}

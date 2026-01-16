@@ -1,0 +1,6 @@
+2026-01-16 20:03:27,946 | INFO | USER_QUERY | Intent: None | Query: I want to write a leave letter
+2026-01-16 20:03:29,014 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: I want to write a leave letter
+2026-01-16 20:03:29,803 | INFO | ACTION | Type: request_leave | Status: PENDING
+2026-01-16 20:03:59,514 | INFO | USER_QUERY | Intent: None | Query: I want to setup a meeting with HR
+2026-01-16 20:04:05,630 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: I want to setup a meeting with HR
+2026-01-16 20:04:11,758 | INFO | ACTION | Type: schedule_hr_meeting | Status: PENDING

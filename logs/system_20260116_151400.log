@@ -1,0 +1,14 @@
+2026-01-16 15:16:18,139 | INFO | USER_QUERY | Intent: None | Query: What was HCLTech’s revenue in FY25?
+2026-01-16 15:16:19,559 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: What was HCLTech’s revenue in FY25?
+2026-01-16 15:16:22,276 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech's revenue in FY25 was ₹117,055 crores (₹) or $13.8 billion (USD).
+
+Citations:
+Page 11, Page 79
+2026-01-16 15:16:56,586 | INFO | USER_QUERY | Intent: None | Query: How does that compare to the previous year?
+2026-01-16 15:16:57,179 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: How does that compare to the previous year?
+2026-01-16 15:16:59,194 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech's revenue in FY25 was ₹117,055 crores (₹) or $13.8 billion (USD), which represents growth compared to the previous year. However, the exact revenue for the previous year (FY24) is not 
+2026-01-16 15:17:22,531 | INFO | USER_QUERY | Intent: None | Query: My VPN is not working
+2026-01-16 15:17:23,222 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: My VPN is not working
+2026-01-16 15:17:25,732 | INFO | ACTION | Type: create_it_ticket | Status: PENDING

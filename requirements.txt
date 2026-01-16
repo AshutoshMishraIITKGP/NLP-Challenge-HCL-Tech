@@ -1,0 +1,13 @@
+PyPDF2==3.0.1
+tiktoken
+numpy
+faiss-cpu
+sentence-transformers
+mistralai
+python-dotenv
+langchain-core
+langchain-mistralai
+autogen-agentchat
+fastapi
+uvicorn
+flask

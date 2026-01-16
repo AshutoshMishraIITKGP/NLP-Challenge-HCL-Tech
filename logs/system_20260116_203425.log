@@ -1,0 +1,4 @@
+2026-01-16 20:34:25,635 | INFO | USER_QUERY | Intent: None | Query: how to prepare for hr role in hcl tech
+2026-01-16 20:34:26,379 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: how to prepare for hr role in hcl tech
+2026-01-16 20:34:28,452 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+The HCLTech Annual Report does not provide specific guidance on preparing for an HR role within the company. It mentions general policies and practices related to employee safety, workplace co

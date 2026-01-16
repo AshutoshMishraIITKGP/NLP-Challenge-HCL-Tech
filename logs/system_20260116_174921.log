@@ -1,0 +1,10 @@
+2026-01-16 17:49:25,992 | INFO | USER_QUERY | Intent: None | Query: Hi, how you doin
+2026-01-16 17:49:26,499 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: Hi, how you doin
+2026-01-16 17:49:27,593 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+Hello! I'm doing well, thank you. How can I assist you with information from the HCLTech Annual Report 2024-25?
+
+Citations:
+N/A (This is a greeting, not based on the context)
+2026-01-16 17:49:37,604 | INFO | USER_QUERY | Intent: None | Query: I am facing vpn issues
+2026-01-16 17:49:38,192 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: I am facing vpn issues
+2026-01-16 17:49:38,947 | INFO | ACTION | Type: create_it_ticket | Status: PENDING

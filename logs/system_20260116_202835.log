@@ -1,0 +1,22 @@
+2026-01-16 20:28:35,261 | INFO | USER_QUERY | Intent: None | Query: I want to create an IT ticket. I am facing issues with starting my VPN
+2026-01-16 20:28:35,890 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: I want to create an IT ticket. I am facing issues with starting my VPN
+2026-01-16 20:28:36,814 | INFO | ACTION | Type: create_it_ticket | Status: PENDING
+2026-01-16 20:29:32,517 | INFO | USER_QUERY | Intent: None | Query: tell me something about HCL tech
+2026-01-16 20:29:33,009 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: tell me something about HCL tech
+2026-01-16 20:29:35,741 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCL Technologies Limited is a global technology company with a presence in digital, engineering, cloud, AI, and software services. The company operates through various subsidiaries worldwide, 
+2026-01-16 20:31:54,481 | INFO | USER_QUERY | Intent: None | Query: hcltech perfomance last yr
+2026-01-16 20:31:56,166 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: hcltech perfomance last yr
+2026-01-16 20:31:59,441 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech's consolidated revenue from operations for the financial year ended March 31, 2025, was ₹1,17,055 crores, up from ₹1,09,913 crores in the previous year. The profit for the year was ₹17
+2026-01-16 20:32:03,438 | INFO | USER_QUERY | Intent: None | Query: so uh howd the company do
+2026-01-16 20:32:04,648 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: so uh howd the company do
+2026-01-16 20:32:07,416 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech achieved robust growth in FY25, with consolidated revenue from operations reaching ₹1,17,055 crores, up 6.5% YoY. Profit after tax (PAT) attributable to owners of the company was ₹17,3
+2026-01-16 20:32:10,641 | INFO | USER_QUERY | Intent: None | Query: wat was fy25 income
+2026-01-16 20:32:11,172 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: wat was fy25 income
+2026-01-16 20:32:12,683 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech's standalone revenue from operations for FY25 was ₹51,105 crores, up 6.2% from ₹48,118 crores in the previous year. The total income (including other income) was ₹52,339 crores, repres
+2026-01-16 20:32:17,901 | INFO | USER_QUERY | Intent: None | Query: I want to write a leave application
+2026-01-16 20:32:18,874 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: I want to write a leave application
+2026-01-16 20:32:19,866 | INFO | ACTION | Type: request_leave | Status: PENDING

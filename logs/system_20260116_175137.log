@@ -1,0 +1,15 @@
+2026-01-16 17:51:50,421 | INFO | USER_QUERY | Intent: None | Query: hi, how you doing
+2026-01-16 17:51:51,025 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: hi, how you doing
+2026-01-16 17:51:52,534 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+I'm functioning as intended, thank you! How can I assist you with information from the HCLTech Annual Report 2024-25?
+
+Citations:
+N/A (This is a standard response not derived from the context)
+2026-01-16 17:52:01,566 | INFO | USER_QUERY | Intent: None | Query: I am facing this vpn issue rn
+2026-01-16 17:52:02,134 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: I am facing this vpn issue rn
+2026-01-16 17:52:02,952 | INFO | ACTION | Type: create_it_ticket | Status: PENDING
+2026-01-16 17:52:20,067 | INFO | USER_QUERY | Intent: None | Query: what can you do?
+2026-01-16 17:52:20,585 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: what can you do?
+2026-01-16 17:52:22,145 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+I can assist you with information from the HCLTech Annual Report 2024-25, including details on:
+- Business responsibility and sustainability practices (e.g., hazard identification, risk assess

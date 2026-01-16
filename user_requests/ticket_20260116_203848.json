@@ -1,0 +1,6 @@
+{
+  "action": "create_it_ticket",
+  "issue_type": "VPN",
+  "priority": "maximum",
+  "description": "The app is not opening and repaeatdely crashing"
+}

@@ -1,0 +1,28 @@
+2026-01-16 20:10:05,168 | INFO | USER_QUERY | Intent: None | Query: tell me about HCL's policies
+2026-01-16 20:10:08,113 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: tell me about HCL's policies
+2026-01-16 20:10:12,819 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech has several policies in place, including:
+1. **Human Rights Policy**: Commits to equal opportunity and is available at [this link](https://www.hcltech.com/corporate/human-rights-policy
+2026-01-16 20:10:19,477 | INFO | USER_QUERY | Intent: None | Query: more detailed
+2026-01-16 20:10:20,111 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: more detailed
+2026-01-16 20:10:23,297 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+The provided context does not contain detailed information about HCLTech's policies beyond the Human Rights Policy mentioned in the previous conversation. The available chunks discuss financia
+2026-01-16 20:10:36,347 | INFO | USER_QUERY | Intent: None | Query: wwhat is the content in page 86?
+2026-01-16 20:10:36,925 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: wwhat is the content in page 86?
+2026-01-16 20:10:40,797 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+The requested information is not available in the provided document.
+
+Citations:
+N/A
+2026-01-16 20:11:49,303 | INFO | USER_QUERY | Intent: None | Query: give me summary of HR
+2026-01-16 20:11:49,925 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: give me summary of HR
+2026-01-16 20:11:55,063 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech has integrated human rights considerations into its operations and vendor onboarding processes. Key HR-related policies and practices include:
+- **Human Rights Due Diligence**: Integra
+2026-01-16 20:12:27,247 | INFO | USER_QUERY | Intent: None | Query: tell m abt hcltech biz
+2026-01-16 20:12:27,978 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: tell m abt hcltech biz
+2026-01-16 20:12:33,534 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech operates across several key business segments, including AI and GenAI, Engineering and R&D Services, IT and Business Services (ITBS), and HCLSoftware. The company follows a value creat
+2026-01-16 20:12:44,206 | INFO | USER_QUERY | Intent: None | Query: I want to write a leave application
+2026-01-16 20:12:46,489 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: I want to write a leave application
+2026-01-16 20:12:47,910 | INFO | ACTION | Type: request_leave | Status: PENDING

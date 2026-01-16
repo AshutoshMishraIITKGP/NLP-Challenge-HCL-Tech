@@ -1,0 +1,6 @@
+{
+  "action": "create_it_ticket",
+  "issue_type": "VPN",
+  "priority": "high",
+  "description": "The user is experiencing significant difficulties establishing a connection to the VPN service. The issue prevents the user from initiating the VPN session, and further troubleshooting is required to identify and resolve the root cause. The user has attempted multiple troubleshooting steps, including restarting the VPN client, verifying network connectivity, and checking firewall settings, but the problem persists. The VPN service is critical for the user's work, and any delay in resolution may impact productivity. Immediate attention is required to diagnose the underlying issue, whether it is related to authentication, network configuration, or VPN server availability. Detailed logs and network diagnostics should be collected to assist in resolving this high-priority issue."
+}

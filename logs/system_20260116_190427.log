@@ -1,0 +1,3 @@
+2026-01-16 19:04:33,872 | INFO | USER_QUERY | Intent: None | Query: help me write a leave leter
+2026-01-16 19:04:34,415 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: help me write a leave leter
+2026-01-16 19:04:35,375 | INFO | ACTION | Type: request_leave | Status: PENDING

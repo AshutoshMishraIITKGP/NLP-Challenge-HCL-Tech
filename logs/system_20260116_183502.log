@@ -1,0 +1,3 @@
+2026-01-16 18:35:14,739 | INFO | USER_QUERY | Intent: None | Query: schedule a meeting with HR
+2026-01-16 18:35:15,623 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: schedule a meeting with HR
+2026-01-16 18:35:16,537 | INFO | ACTION | Type: schedule_hr_meeting | Status: PENDING

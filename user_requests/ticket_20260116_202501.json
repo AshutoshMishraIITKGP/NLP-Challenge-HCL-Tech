@@ -1,0 +1,6 @@
+{
+  "action": "create_it_ticket",
+  "issue_type": "vpn",
+  "priority": "medium",
+  "description": "\"The user is experiencing issues with the VPN connection and requires assistance to resolve the problem. Please investigate and provide a solution to restore VPN functionality.\""
+}

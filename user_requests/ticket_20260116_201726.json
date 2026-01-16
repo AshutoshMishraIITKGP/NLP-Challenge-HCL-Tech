@@ -1,0 +1,8 @@
+{
+  "action": "schedule_hr_meeting",
+  "meeting_type": "general",
+  "date": "",
+  "time": "",
+  "participants": "",
+  "description": "\"The user is requesting assistance to schedule a meeting with HR. Please coordinate the necessary arrangements to facilitate this request at the earliest convenience.\""
+}

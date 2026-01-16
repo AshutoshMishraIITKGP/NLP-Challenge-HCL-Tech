@@ -1,0 +1,13 @@
+2026-01-16 18:23:10,286 | INFO | USER_QUERY | Intent: None | Query: provide whatever u know about the hcl and hcl tech laws
+2026-01-16 18:23:10,889 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: provide whatever u know about the hcl and hcl tech laws
+2026-01-16 18:23:14,824 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+The HCLTech Annual Report mentions compliance with various laws, regulations, and guidelines, including the Special Economic Zone Act, 2005, and the Software Technology Parks of India Rules an
+2026-01-16 18:23:40,678 | INFO | USER_QUERY | Intent: None | Query: statethe exactr lawsf
+2026-01-16 18:23:41,237 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: statethe exactr lawsf
+2026-01-16 18:23:44,159 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+The HCLTech Annual Report mentions compliance with the following laws and regulations:
+1. Sector/Industry-based laws applicable to the company (Page 131).
+2. Standard on Quality Control (SQC) 
+2026-01-16 18:24:14,439 | INFO | USER_QUERY | Intent: None | Query: im faving issues with my vpn so how should i rectify it ?
+2026-01-16 18:24:15,210 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: im faving issues with my vpn so how should i rectify it ?
+2026-01-16 18:24:16,309 | INFO | ACTION | Type: create_it_ticket | Status: PENDING

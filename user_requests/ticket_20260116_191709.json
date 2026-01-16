@@ -1,0 +1,8 @@
+{
+  "action": "request_leave",
+  "leave_type": "",
+  "start_date": "",
+  "end_date": "",
+  "reason": "",
+  "description": "The user is requesting assistance to initiate a leave application within the HR management system. The request involves creating a formal leave record, including submission of required details and approval workflow initiation. Please facilitate the process or provide guidance on system navigation for leave application creation."
+}

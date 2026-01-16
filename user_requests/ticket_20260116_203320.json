@@ -1,0 +1,8 @@
+{
+  "action": "request_leave",
+  "leave_type": "",
+  "start_date": "17th Jan 2026",
+  "end_date": "18th Jan 2026",
+  "reason": "",
+  "description": "The user is requesting assistance in drafting a leave application. The primary requirement is to facilitate the creation of a formal leave request document. Support should provide guidance on the necessary format, approval process, and submission steps. The user is requesting leave from 17th January 2026 to 18th January 2026 due to a fever. The description should be detailed to include the reason for leave, which is a fever, and the specific dates of the leave period."
+}

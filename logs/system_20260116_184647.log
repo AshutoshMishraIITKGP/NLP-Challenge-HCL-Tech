@@ -1,0 +1,7 @@
+2026-01-16 18:47:13,914 | INFO | USER_QUERY | Intent: None | Query: help me write a leave application
+2026-01-16 18:47:14,525 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: help me write a leave application
+2026-01-16 18:47:15,530 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+The requested information is not available in the provided document.
+
+Citations:
+N/A
