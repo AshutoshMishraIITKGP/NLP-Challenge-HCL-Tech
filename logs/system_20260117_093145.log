@@ -1,0 +1,72 @@
+2026-01-17 09:31:45,292 | INFO | USER_QUERY | Intent: None | Query: What is HCLTech's revenue for FY25?
+2026-01-17 09:31:45,868 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: What is HCLTech's revenue for FY25?
+2026-01-17 09:31:48,534 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech's revenue for FY25 was ₹117,055 crores (₹117,055 cr) and $13.8 billion.
+
+Citations:
+Page 11, Page 79
+2026-01-17 09:31:48,535 | INFO | USER_QUERY | Intent: None | Query: Tell me about HCLTech's global presence
+2026-01-17 09:31:48,999 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: Tell me about HCLTech's global presence
+2026-01-17 09:31:50,902 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech has a global presence in 60 countries with team members from 167 nationalities. The company maintains a nearshore presence in 20 countries, with over 90% of employees hired locally. Th
+2026-01-17 09:31:50,903 | INFO | USER_QUERY | Intent: None | Query: What are the key achievements in 2024?
+2026-01-17 09:31:51,355 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: What are the key achievements in 2024?
+2026-01-17 09:31:52,829 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+Key achievements in 2024 include:
+1. Strengthened SAP partnership with a migration factory for S/4HANA and cloud migrations.
+2. Recognized as the world’s fastest-growing IT services brand by B
+2026-01-17 09:31:52,830 | INFO | USER_QUERY | Intent: None | Query: How many employees does HCLTech have?
+2026-01-17 09:31:53,277 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: How many employees does HCLTech have?
+2026-01-17 09:31:54,131 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech has 223,420 employees as of FY 2024-25.
+
+Citations:
+Page 126, Page 215
+2026-01-17 09:31:54,132 | INFO | USER_QUERY | Intent: None | Query: What is the company's growth rate?
+2026-01-17 09:31:54,586 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: What is the company's growth rate?
+2026-01-17 09:31:55,852 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech's revenue growth rate is 4.3% YoY, while earnings before other income, tax, and finance cost grew by 7% YoY. Profit after tax (PAT) increased by 10.8% YoY.
+
+Citations:
+Page 15, Page 17
+2026-01-17 09:31:55,853 | INFO | USER_QUERY | Intent: None | Query: My VPN is not working
+2026-01-17 09:31:56,292 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: My VPN is not working
+2026-01-17 09:31:57,185 | INFO | ACTION | Type: create_it_ticket | Status: PENDING
+2026-01-17 09:31:57,187 | INFO | USER_QUERY | Intent: None | Query: I need to schedule a meeting with HR
+2026-01-17 09:31:57,621 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: I need to schedule a meeting with HR
+2026-01-17 09:31:58,460 | INFO | ACTION | Type: schedule_hr_meeting | Status: PENDING
+2026-01-17 09:31:58,461 | INFO | USER_QUERY | Intent: None | Query: I want to apply for leave
+2026-01-17 09:31:58,897 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: I want to apply for leave
+2026-01-17 09:31:59,632 | INFO | ACTION | Type: request_leave | Status: PENDING
+2026-01-17 09:31:59,632 | INFO | USER_QUERY | Intent: None | Query: My laptop screen is broken
+2026-01-17 09:32:00,068 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: My laptop screen is broken
+2026-01-17 09:32:00,709 | INFO | ACTION | Type: create_it_ticket | Status: PENDING
+2026-01-17 09:32:00,710 | INFO | USER_QUERY | Intent: None | Query: Schedule a performance review meeting
+2026-01-17 09:32:01,180 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: Schedule a performance review meeting
+2026-01-17 09:32:01,946 | INFO | ACTION | Type: schedule_hr_meeting | Status: PENDING
+2026-01-17 09:32:11,348 | INFO | USER_QUERY | Intent: None | Query: What is HCLTech's revenue for FY25?
+2026-01-17 09:32:11,873 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: What is HCLTech's revenue for FY25?
+2026-01-17 09:32:12,847 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech's revenue for FY25 was ₹117,055 crores (₹117.055 billion) or $13.8 billion.
+
+Citations:
+Page 11, Page 79
+2026-01-17 09:32:12,849 | INFO | USER_QUERY | Intent: None | Query: Tell me about HCLTech's global presence
+2026-01-17 09:32:13,282 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: Tell me about HCLTech's global presence
+2026-01-17 09:32:14,611 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+HCLTech has a global presence in 60 countries with employees from 167 nationalities. The company maintains a nearshore presence in 20 countries, with over 90% of employees hired locally. The w
+2026-01-17 09:32:14,612 | INFO | USER_QUERY | Intent: None | Query: What are the key achievements in 2024?
+2026-01-17 09:32:15,059 | INFO | USER_QUERY | Intent: INFO_QUERY | Query: What are the key achievements in 2024?
+2026-01-17 09:32:16,866 | INFO | SYSTEM_RESPONSE | Type: INFO_QUERY | Content: Answer:
+Key achievements in 2024 include:
+1. Strengthened partnership with SAP, establishing a migration factory for S/4HANA and cloud migrations.
+2. Recognized as the world’s fastest-growing IT servi
+2026-01-17 09:32:21,622 | INFO | USER_QUERY | Intent: None | Query: My VPN is not working
+2026-01-17 09:32:22,137 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: My VPN is not working
+2026-01-17 09:32:23,227 | INFO | ACTION | Type: create_it_ticket | Status: PENDING
+2026-01-17 09:32:23,228 | INFO | USER_QUERY | Intent: None | Query: I need to schedule a meeting with HR
+2026-01-17 09:32:24,656 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: I need to schedule a meeting with HR
+2026-01-17 09:32:25,562 | INFO | ACTION | Type: schedule_hr_meeting | Status: PENDING
+2026-01-17 09:32:25,565 | INFO | USER_QUERY | Intent: None | Query: I want to apply for sick leave
+2026-01-17 09:32:26,016 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: I want to apply for sick leave
+2026-01-17 09:32:26,693 | INFO | ACTION | Type: request_leave | Status: PENDING

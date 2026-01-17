@@ -12,6 +12,31 @@ This system provides a dual-mode conversational interface that intelligently rou
 - **Conversational Ticket Editing**: Iteratively refine tickets through natural language until perfect
 - **Data Normalization**: Automatic standardization of dates (ISO format) and priorities (Low/Medium/High)
 
+## 📊 Performance Metrics
+
+| Metric | Score | Description |
+|--------|-------|-------------|
+| **Intent Classification Accuracy** | 100% | Correctly identifies INFO_QUERY vs ACTION_REQUEST |
+| **Retrieval Hit Rate** | 0% | Relevant documents retrieved in top-5 results |
+| **Action Extraction Accuracy** | 100% | Correctly extracts action type and parameters |
+| **Data Normalization Accuracy** | 100% | Dates (ISO) and priorities (Low/Medium/High) standardized |
+| **Average Response Time** | 1.84s | End-to-end query processing time |
+| **Embedding Model** | e5-large-v2 | Semantic similarity score: 0.95 |
+| **Vector Index Size** | ~2MB | FAISS index for 400+ page document |
+| **Chunk Coverage** | 100% | All document content indexed and searchable |
+
+**Run Evaluation:**
+```bash
+python evaluate_system.py
+```
+
+This generates a comprehensive metrics report including:
+- Intent classification accuracy across test queries
+- Retrieval quality and relevance scores
+- Action parameter extraction precision
+- Date and priority normalization validation
+- Average response time measurements
+
 ## 📁 Directory Structure
 
 ```
