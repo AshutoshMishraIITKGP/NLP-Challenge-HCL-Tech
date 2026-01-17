@@ -130,6 +130,20 @@ async def chat(request: ChatRequest):
                 enhanced_desc = description_enhancer.enhance_description(original_query, action_type)
                 pending_action['content']['description'] = enhanced_desc
                 
+                # Normalize date fields
+                date_fields = ['date', 'start_date', 'end_date']
+                for field in date_fields:
+                    if field in pending_action['content'] and pending_action['content'][field]:
+                        pending_action['content'][field] = description_enhancer.normalize_date(
+                            pending_action['content'][field]
+                        )
+                
+                # Normalize priority field
+                if 'priority' in pending_action['content']:
+                    pending_action['content']['priority'] = description_enhancer.normalize_priority(
+                        pending_action['content']['priority']
+                    )
+                
                 return ChatResponse(
                     type="TICKET_GENERATED",
                     content=pending_action['content'],

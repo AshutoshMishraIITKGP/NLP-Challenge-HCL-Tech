@@ -1,0 +1,3 @@
+2026-01-17 09:00:19,127 | INFO | USER_QUERY | Intent: None | Query: I need to talk to HR
+2026-01-17 09:00:20,269 | INFO | USER_QUERY | Intent: ACTION_REQUEST | Query: I need to talk to HR
+2026-01-17 09:00:21,168 | INFO | ACTION | Type: schedule_hr_meeting | Status: PENDING

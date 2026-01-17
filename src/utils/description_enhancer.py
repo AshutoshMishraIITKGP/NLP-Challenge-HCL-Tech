@@ -2,6 +2,8 @@
 from mistralai import Mistral
 import json
 import os
+from datetime import datetime, timedelta
+import re
 
 class DescriptionEnhancer:
     """Enhances and refines action descriptions."""
@@ -9,6 +11,53 @@ class DescriptionEnhancer:
     def __init__(self, api_key):
         """Initialize with Mistral client."""
         self.client = Mistral(api_key=api_key)
+    
+    def normalize_date(self, date_string):
+        """Convert natural language date to ISO format (YYYY-MM-DD)."""
+        if not date_string or date_string.strip() == "":
+            return ""
+        
+        prompt = f"""Convert the following date to ISO format (YYYY-MM-DD).
+
+Date: "{date_string}"
+Current date: {datetime.now().strftime('%Y-%m-%d')}
+
+Rules:
+- "tomorrow" → add 1 day to current date
+- "today" → current date
+- "18th Jan" → 2026-01-18 (assume current year if not specified)
+- "17/01/25" → 2025-01-17
+- "Jan 20, 2026" → 2026-01-20
+- Any format → YYYY-MM-DD
+
+Output ONLY the date in YYYY-MM-DD format (no explanation):"""
+
+        response = self.client.chat.complete(
+            model="mistral-small-2503",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.0
+        )
+        
+        normalized = response.choices[0].message.content.strip()
+        # Validate format
+        if re.match(r'^\d{4}-\d{2}-\d{2}$', normalized):
+            return normalized
+        return date_string  # Fallback to original if parsing fails
+    
+    def normalize_priority(self, priority_string):
+        """Normalize priority to Low, Medium, or High only."""
+        if not priority_string or priority_string.strip() == "":
+            return "Medium"  # Default
+        
+        priority_lower = priority_string.lower().strip()
+        
+        # Map common variations
+        if priority_lower in ['low', 'l', 'minor']:
+            return "Low"
+        elif priority_lower in ['high', 'h', 'urgent', 'critical', 'maximum', 'highest', 'max']:
+            return "High"
+        else:
+            return "Medium"  # Default for medium, normal, or anything else
     
     def enhance_description(self, user_query, action_type):
         """Generate professional, polished description from user query using Mistral Large."""
@@ -72,11 +121,12 @@ IMPORTANT INSTRUCTIONS:
 5. If user mentions date/time, add or update those fields
 6. If user wants to expand/modify description, update the "description" field
 7. Keep all other fields unchanged
+8. For dates, keep them as the user provided (they will be normalized separately)
 
 Examples:
 - "make priority high" → Change "priority" to "high"
 - "change to urgent" → Change "priority" to "high"
-- "add date 17th jan" → Add "date": "17th jan 2026"
+- "add date 17th jan" → Add "date": "17th jan"
 - "expand the description" → Make description longer and more detailed
 
 Output ONLY the complete modified JSON (no explanations, no text before or after):"""
@@ -94,7 +144,19 @@ Output ONLY the complete modified JSON (no explanations, no text before or after
                 result = result.split('```')[1]
                 if result.startswith('json'):
                     result = result[4:]
-            return json.loads(result.strip())
+            modified_json = json.loads(result.strip())
+            
+            # Normalize date fields
+            date_fields = ['date', 'start_date', 'end_date']
+            for field in date_fields:
+                if field in modified_json and modified_json[field]:
+                    modified_json[field] = self.normalize_date(modified_json[field])
+            
+            # Normalize priority field
+            if 'priority' in modified_json:
+                modified_json['priority'] = self.normalize_priority(modified_json['priority'])
+            
+            return modified_json
         except Exception as e:
             print(f"\n[DEBUG] JSON parsing failed: {e}")
             print(f"[DEBUG] Raw response: {response.choices[0].message.content}")
@@ -102,22 +164,36 @@ Output ONLY the complete modified JSON (no explanations, no text before or after
     
     def check_satisfaction(self, user_response):
         """Check if user is satisfied with current ticket."""
-        # First check if user is providing modifications
-        if any(keyword in user_response.lower() for keyword in ['change', 'modify', 'update', 'add', 'set', 'make', 'expand', 'priority', 'date', 'time', 'description']):
-            return False  # User wants to modify
-        
         prompt = f"""The user is looking at a ticket and was asked "Do you want to modify the ticket?"
 
 User response: "{user_response}"
 
-Classify as:
-- SATISFIED: User says "no", "don't modify", "looks good", "perfect", "done", "export it", "submit it", "that's all", "no more changes"
-- UNSATISFIED: User says "yes" alone without any specific changes
+Classify the user's intent:
 
-IMPORTANT: 
-- "no" means they DON'T want to modify = SATISFIED
-- "yes" alone means they DO want to modify = UNSATISFIED
-- If user provides specific changes, it's already handled before this
+SATISFIED (user wants to EXPORT/FINISH):
+- "no"
+- "don't modify"
+- "looks good"
+- "perfect"
+- "done"
+- "export it"
+- "submit it"
+- "that's all"
+- "no more changes"
+- "no further changes"
+- "looks good, no further changes"
+- Any variation indicating they're happy with the ticket
+
+UNSATISFIED (user wants to CONTINUE MODIFYING):
+- "yes"
+- "change X to Y"
+- "add X"
+- "modify X"
+- "update X"
+- "make X"
+- Any specific modification request
+
+IMPORTANT: If the user says they're satisfied/happy/done in ANY way, classify as SATISFIED.
 
 Respond with ONLY one word: SATISFIED or UNSATISFIED"""
 

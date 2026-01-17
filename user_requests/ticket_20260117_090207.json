@@ -1,0 +1,8 @@
+{
+  "action": "schedule_hr_meeting",
+  "meeting_type": "general",
+  "date": "18th Jan",
+  "time": "9pm",
+  "participants": "Ashutosh Mishra",
+  "description": "The user is requesting assistance to schedule a meeting with HR. Please facilitate the scheduling process to address the user's inquiry. The meeting is scheduled for the 18th of January at 9 PM. The user would like to discuss their concerns or questions with the HR team, and it's important to ensure all necessary details are covered during this session."
+}
